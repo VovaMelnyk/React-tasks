@@ -14,7 +14,26 @@
 
 ### Задача №3
 
-Застилизировать остаток макета используя ```emotion ``` 
+Застилизировать остаток макета используя `emotion `
 
 ![emotion](/images/emotion.png)
 
+### Задача №4
+
+Добавить в меню иконки
+
+```jsx
+import { HiBookOpen, HiAcademicCap } from "react-icons/hi";
+
+export const menuConfig = [
+  {
+    name: "Университет",
+    icon: <HiBookOpen />,
+  },
+
+  {
+    name: "Факультеты",
+    icon: <HiAcademicCap />,
+  },
+];
+```
