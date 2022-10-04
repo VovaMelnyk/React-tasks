@@ -1,12 +1,12 @@
 # Lesson №1
 
-## Создание компонентов (без стилизации)
+## Creating components (no styling)
 
-### Задача №1
+### Task №1
 
-Разбить [макет](<https://www.figma.com/file/mfsNEI7Nv5i5fkdseWbFn7/Lesson-(Copy)?node-id=8701%3A11194>) на компоненты
+Break [layout](<https://www.figma.com/file/mfsNEI7Nv5i5fkdseWbFn7/Lesson-(Copy)?node-id=8701%3A11194>) into components
 
-**Например**
+**Example**
 
 ```jsx
 <Sidebar>
@@ -23,89 +23,87 @@
 <Department>
 ```
 
-### Задача №2
+### Task №2
 
-Создать файл menu.js где будет массив для отрисовки менюшки
+Create a menu.js file where there will be an array for drawing the menu
 
 ```jsx
 export const menuConfig = [
   {
-    name: "Университет",
+    name: "University",
   },
 
   {
-    name: "Факультеты",
+    name: "Faculties",
   },
 ];
 ```
 
-Отрисовать меню в сайдбаре исполюзуя `menuConfig` и показать работу с `props` и `key`
+Draw menu in sidebar using `menuConfig` and show work with `props` and `key`
 
 ![Меню](/images/sidebar.png)
 
-### Задача №3
+### Task №3
 
-Создать компонент ` <Paper>` - компонент с белым фоном и отступами который использует `props.children` и рендерит любую разметку которую ему передадут
+Create a ` <Paper>` component - a component with a white background and padding that uses `props.children` and renders whatever markup is passed to it
 
 ![Paper](/images/paper.png)
 
-### Задача №4
+### Task №4
 
-Отрисовать компонент карточки и описания используя ` <Paper>` и показать как импрортировать изображения в компонент
+Draw the card and description component using ` <Paper>` and show how to import images into the component
 
-Карточка
+Card
 
 ![Card](/images/Card.png)
 
-Описание
+Description
 
 ![description](/images/description.png)
 
-### Задача №5
+### Task №5
 
-Отрисовать колекции преподавателей, городов, факультетов используя этот json
+Draw collections of teachers, cities, faculties using this json
 
 ```json
 {
   "name": "MIT",
-  "description": "Опыт, концентрат знаний и возможность избежать большинство ошибок при приеме на работу. Мы знаем, что хотят большинство локальных и иностранных компаний и можем вам это дать. А еще мы постоянно совершенствуем наши курсы программирования, добавляя туда что-то новое. Вы можете лично ознакомиться с историями успеха наших выпускников, чтобы убедиться в эффективности нашей методики обучения. Да, мы начнем с азов и самой простой информации. Знаем, что большинство людей приходят к нам с нулевыми знаниями. ",
+  "description": "Experience, a concentration of knowledge and the ability to avoid most recruiting mistakes. We know what most local and foreign companies want and we can give it to you. And we are constantly improving our programming courses, adding something new there. You can see the success stories of our alumni for yourself to see the effectiveness of our teaching methodology. Yes, we will start with the basics and the most basic information. We know that most people come to us with zero knowledge. ",
   "tutors": [
     {
-      "firstName": "Мария",
-      "lastName": "Руденко",
-      "patronymic": "Александровна",
-      "phone": "+38(097) 448 73 11",
-      "email": "rudenko.mail@gmail.com",
-      "city": "Полтава",
-      "options": "Создание групп"
+      "firstName": "John",
+      "lastName": "Smith",
+      "phone": "+1 302-865-7394",
+      "email": "johnsmith@goit.global",
+      "city": "New York",
+      "options": "Group creation"
     },
     {
-      "firstName": "Елена",
-      "lastName": "Иванова",
-      "patronymic": "Александровна",
-      "phone": "+38(093) 443 43 51",
-      "email": "ivanova.mail@gmail.com",
-      "city": "Берлин",
-      "options": "Создание групп, редактировани профилей преподавателей"
+      "firstName": "Antonio",
+      "lastName": "García",
+      "phone": "+34 456 890 302",
+      "email": "antonio.garcia@goit.global",
+      "city": "Madrid",
+      "options": "Group creation, editing teacher profiles"
     }
   ],
-  "cities": ["Киев", "Лондон", "Берлин"],
+  "cities": ["Kyiv", "London", "Berlin"],
   "department": [
-    { "name": "Факультет информатики и выычислительной техники" },
-    { "name": "Факультет искуственого интелекта" },
-    { "name": "Факультет аналитики" }
+    { "name": "Faculty of Computer Science" },
+    { "name": "Faculty of Automation" },
+    { "name": "Faculty of Neural Networks" }
   ]
 }
 ```
 
 ![collection](/images/collection.png)
 
-### Задача №6
+### Task №6
 
-Создать универсальный компонент кнопки у которого будет 3 пропса `text`, `icon` и `onClick`(в будущем)
+Create a universal button component that will have 3 props `text`, `icon` and `onClick` (in the future)
 
 ![button](/images/button.png)
 
-### Задача №7
+### Task №7
 
-Сделать описание проgсов внутри всех компонентов используя `propTypes`
+Make prog descriptions inside all components using `propTypes`
