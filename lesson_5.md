@@ -1,19 +1,19 @@
-# Занятие №5
+# Lesson  №5
 
-## Жизненный цикл
+## Life cycle
 
-### Задача №1
+### Task №1
 
-Показать стандартные методы жизненого цикла компонента в классах
+Show standard methods of a component lifestyle in classes
 
-### Задача №2
+### Task №2
 
-Все колекции преподавателей, городрв, факультетов записывать в localStorage
+All collections of tutors, cities, faculties are stored in localStorage
 
-### Задача №3
+### Task №3
 
-Все колекции преподавателей, городрв, факультетов cчитывать с localStorage при первой загрузке страницы
+Read all collections of tutors, cities, faculties from localStorage on first page load
 
-### Задача №4
+### Task №4
 
-Для модалки редактирования и удаления добавить возможность закрытия по кнопке ```ESC```
+For editing and deleting modals, add the ability to close using the ```ESC``` button
