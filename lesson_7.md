@@ -1,16 +1,16 @@
-# Занятие №7
+# Lesson №7
 
-## React-хуки часть 1
+## React hooks part 1
 
-### Задача №1 
+### Task №1 
 
-Переписать весь стейт на хуки
+Rewrite the entire state to hooks
 
 
-### Задача №2 
+### Task №2 
 
-Переписать все жизненные циклы на хуки
+Rewrite all life cycles to hooks
 
-### Задача №3
+### Task №3
 
-Переделать модалку удаления и редактирования на порталы
+Convert the delete and edit modal to portals
