@@ -4,4 +4,4 @@
 
 ### Task №1
 
-Rewrite the code from lesson #11 to ``` redux toolkit ``` using ``` createSlice ```
+Rewrite the code from lesson 11 to ``` redux toolkit ``` using ``` createSlice ```
