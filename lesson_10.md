@@ -1,11 +1,11 @@
-# Занятие №10
+# Lesson №10
 
-## Разделение кода (code splitting)
+## Code splitting
 
-### Задача №1
+### Task №1
 
-Сделать разделение кода по роутах
+Make code separation by routes
 
-### Задача №2
+### Task №2
 
-Сделать ленивую загрузку компонентов
+Make components lazy-loading
