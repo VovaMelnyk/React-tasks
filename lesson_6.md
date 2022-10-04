@@ -1,6 +1,6 @@
 # Lesson №6
 
-## Работа с API
+## Working with API
 
 ### Task №1
 Using ``` json-server ``` or ``` firebase ``` or any other option to make ```GET``` requests for tutors, cities, faculties
