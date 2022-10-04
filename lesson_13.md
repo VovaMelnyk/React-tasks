@@ -1,11 +1,11 @@
-# Занятие №13
+# Lesson №13
 
-## Асинхронный Redux
+## Asynchronous Redux
 
-### Задача №1
+### Task №1
 
-Добавить в код из занятия №11 логику работы с бекендом через редакс и redux-thunk
+Add to the code from lesson No. 11 the logic of working with the backend through redax and redux-thunk
 
-### Задача №2
+### Task №2
 
-Написать свой middleware ``` logger```
+Write your middleware ``` logger```
