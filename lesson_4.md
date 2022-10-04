@@ -4,7 +4,7 @@
 
 ### Task №1
 
-Create a form for adding a tutor and when clicking on "Invite" hide the form and add the tutor to the collection
+Create a form for adding a tutor and when clicking on "Invite", hide the form and add the tutor to the collection
 
 ![tutorForm](/images/tutorForm.png)
 
