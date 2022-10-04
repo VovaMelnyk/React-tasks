@@ -1,21 +1,21 @@
-# Занятие №6
+# Lesson №6
 
 ## Работа с API
 
-### Задача №1
-Используя ``` json-server ``` или ``` firebase ``` или любой другой вариант сделать ```GET``` запросы за преподавателями, городами, факультетами
+### Task №1
+Using ``` json-server ``` or ``` firebase ``` or any other option to make ```GET``` requests for tutors, cities, faculties
 
-### Задача №2
+### Task №2
 
-Написать запросы на удаление преподавателей, городов, факультетов
+Write requests to delete tutors, cities, faculties
 
-### Задача №3
+### Task №3
 
-Написать запросы на редактирование преподавателей, городов, факультетов
+Write requests for editing tutors, cities, faculties
 
-### Задача №4
-Добавить лоадер при ``` GET``` запросах
+### Task №4
+Add loader on ``` GET``` requests
 
-### Задача №5
+### Task №5
 
-Добавить обработку ошибок при запросах
+Add error handling on requests
