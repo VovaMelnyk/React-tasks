@@ -1,7 +1,7 @@
-# Занятие №14
+# Lesson №14
 
-## Мемоизация в Redux
+## Memoization in Redux
 
-### Задача №1
+### Task №1
 
-Переписать код из занятия №13 на вариант запросов с ``` createAsyncThunk```
+Rewrite the code from lesson 13 to query option with ``` createAsyncThunk```
