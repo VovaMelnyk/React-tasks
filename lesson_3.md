@@ -1,39 +1,39 @@
-# Занятие №3
+# Lesson №3
 
-## События и состояние
+## Events and state
 
-### Задание №1
+### Task №1
 
-Добавить обработчик на кнопки
+Add a button handler
 
-- Добавить преподавателя
-- Добавить город
-- Добавить факультет
+- Add tutor
+- Add city
+- Add faculty
 
-При клике на "Добавить преподавателя" показывать или прятать форму добавления преподавателя
+When clicking on "Add tutor" show or hide the form for adding a teacher
 
 ![tutorForm](/images/tutorForm.png)
 
-При клике на "Добавить город" показывать или прятать форму добавления города
+When clicking on "Add city" show or hide the form for adding a city
 
 ![cityForm](/images/cityForm.png)
 
-При клике на "Добавить факультет" показывать или прятать форму добавления факультета
+When clicking on "Add faculty" show or hide the form for adding a faculty
 
 ![cityForm](/images/departmentForm.png)
 
-Используем стейт в классах
+Use state in classes
 
-### Задание №2
+### Task №2
 
-Навешать обработчик на ... и показывать список операций "Удалить" "Редактировать"
+Hang a handler on ... and show a list of operations "Delete" "Edit"
 
 ![dropdown](/images/dropdown.png)
 
-Используем стейт в классах
+Use state in classes
 
-### Задание №3
+### Task №3
 
-Сделать уделение факультета и города при клике на "Удалить"
+Make removal of faculty and city when clicking on "Delete"
 
 ![dropdown](/images/dropdown.png)
