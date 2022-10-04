@@ -1,16 +1,16 @@
-# Занятие №8
+# Lesson №8
 
-## React-хуки часть 2
+## React hooks part 2
 
-### Задача №1 
+### Task №1 
 
-Написать свой toggle хук и использовать его для показа форм
+Write your own toggle hook and use it to display forms
 
-### Задача №2
+### Task №2
 
-Показать библиотеку react-use
+Show react-use library
 
-### Задача №3
+### Task №3
 
-Написать тогл всех форм используя useReducer
+Write togle of all forms using useReducer
 
