@@ -1,21 +1,21 @@
-# Занятие №9
+# Lesson №9
 
-## Навигация в приложении
+## Navigation in the application
 
-### Задача №1
+### Task №1
 
-Добавить роутинг в сайдбар и возможность переключения на страницу Факультетов
+Add routing to the sidebar and the ability to switch to the Faculties page
 
-[Факультеты](<https://www.figma.com/file/mfsNEI7Nv5i5fkdseWbFn7/Lesson-(Copy)?node-id=9272%3A157>)
+[Faculties](<https://www.figma.com/file/mfsNEI7Nv5i5fkdseWbFn7/Lesson-(Copy)?node-id=9272%3A157>)
 
-### Задача №2
+### Task №2
 
-Добавить индивитуальный роутинг - при клике на название факульлтета переводить на страницу одного факультета
+Add individual routing - when clicking on the name of the faculty, transfer to the page of one faculty
 
-[Страница факультета](<https://www.figma.com/file/mfsNEI7Nv5i5fkdseWbFn7/Lesson-(Copy)?node-id=9272%3A349>)
+[Faculty Page](<https://www.figma.com/file/mfsNEI7Nv5i5fkdseWbFn7/Lesson-(Copy)?node-id=9272%3A349>)
 
-### Задача №3
+### Task №3
 
-Добавить вложеный роутинг на странице факультета при клике на табы на странице
+Add nested routing on the faculty page when clicking on tabs on the page
 
 ![tabs](/images/tabs.png)
