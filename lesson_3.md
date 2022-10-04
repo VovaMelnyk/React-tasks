@@ -10,7 +10,7 @@ Add a button handler
 - Add city
 - Add faculty
 
-When clicking on "Add tutor" show or hide the form for adding a teacher
+When clicking on "Add tutor" show or hide the form for adding a tutor
 
 ![tutorForm](/images/tutorForm.png)
 
