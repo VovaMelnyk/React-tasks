@@ -1,12 +1,12 @@
-# Занятие №1
+# Clase №1
 
-## Создание компонентов (без стилизации)
+## Creación de componentes (sin estilización)
 
-### Задача №1
+### Tarea №1
 
-Разбить [макет](<https://www.figma.com/file/mfsNEI7Nv5i5fkdseWbFn7/Lesson-(Copy)?node-id=8701%3A11194>) на компоненты
+Separa [la plantilla](<https://www.figma.com/file/mfsNEI7Nv5i5fkdseWbFn7/Lesson-(Copy)?node-id=8701%3A11194>) en componentes
 
-**Например**
+**Por ejemplo**
 
 ```jsx
 <Sidebar>
@@ -23,89 +23,90 @@
 <Department>
 ```
 
-### Задача №2
+### Tarea №2
 
-Создать файл menu.js где будет массив для отрисовки менюшки
+Crear un archivo menu.js con un array para dibujar el menú
 
 ```jsx
 export const menuConfig = [
   {
-    name: "Университет",
+    name: "Universidad",
   },
 
   {
-    name: "Факультеты",
+    name: "Facultades",
   },
 ];
 ```
 
-Отрисовать меню в сайдбаре исполюзуя `menuConfig` и показать работу с `props` и `key`
+Dibujar el menú de la barra lateral usando `menuConfig` y mostrar su funcionamiento con `props` y `key`.
 
-![Меню](/images/sidebar.png)
+![Menú](/images/sidebar.png)
 
-### Задача №3
+### Tarea №3
 
-Создать компонент ` <Paper>` - компонент с белым фоном и отступами который использует `props.children` и рендерит любую разметку которую ему передадут
+Crear un componente ` <Paper>` - componente con fondo blanco y sangría que utiliza `props.children` y renderiza cualquier diseño que se le pase
 
 ![Paper](/images/paper.png)
 
-### Задача №4
+### Tarea №4
 
-Отрисовать компонент карточки и описания используя ` <Paper>` и показать как импрортировать изображения в компонент
+Dibujar el componente de la tarjeta y la descripción utilizando ` <Paper>` y mostrar cómo importar las imágenes en el componente
 
-Карточка
+Tarjeta
 
 ![Card](/images/Card.png)
 
-Описание
+Descripción
 
 ![description](/images/description.png)
 
-### Задача №5
+### Tarea №5
 
-Отрисовать колекции преподавателей, городов, факультетов используя этот json
+Dibuja colecciones de profesores, ciudades, facultades utilizando este json
 
 ```json
 {
   "name": "MIT",
-  "description": "Опыт, концентрат знаний и возможность избежать большинство ошибок при приеме на работу. Мы знаем, что хотят большинство локальных и иностранных компаний и можем вам это дать. А еще мы постоянно совершенствуем наши курсы программирования, добавляя туда что-то новое. Вы можете лично ознакомиться с историями успеха наших выпускников, чтобы убедиться в эффективности нашей методики обучения. Да, мы начнем с азов и самой простой информации. Знаем, что большинство людей приходят к нам с нулевыми знаниями. ",
+  "description": "Experiencia, una concentración de conocimientos y la capacidad de evitar la mayoría de errores de contratación. Sabemos lo que quieren la mayoría de las empresas locales y extranjeras, y podemos dárselo. Ademas, estamos constantemente mejorando nuestros cursos de programación, agregando algo nuevo allí. Podrá ver personalmente los casos de éxito de nuestros alumnos egresados para comprobar la eficacia de nuestra metodología de enseñanza. Sí, comenzaremos con lo básico y la información fundamental. Sabemos que la mayoría de las personas acuden a nosotros sin ningún conocimiento previo.",
   "tutors": [
     {
-      "firstName": "Мария",
-      "lastName": "Руденко",
-      "patronymic": "Александровна",
-      "phone": "+38(097) 448 73 11",
-      "email": "rudenko.mail@gmail.com",
-      "city": "Полтава",
-      "options": "Создание групп"
+      "firstName": "Diego",
+      "lastName": "Martínez",
+      "patronymic": "",
+      "phone": "+ 52 55 4166 2620",
+      "email": "diegomartinez@goit.global",
+      "city": "Ciudad de México",
+      "options": "Creación de grupos"
     },
     {
-      "firstName": "Елена",
-      "lastName": "Иванова",
-      "patronymic": "Александровна",
-      "phone": "+38(093) 443 43 51",
-      "email": "ivanova.mail@gmail.com",
-      "city": "Берлин",
-      "options": "Создание групп, редактировани профилей преподавателей"
+      "firstName": "Carlos",
+      "lastName": "Valverde",
+      "patronymic": "",
+      "phone": "+52 55 4166 2136",
+      "email": "cvalverde@gmail.com",
+      "city": "Acapulco",
+      "options": "Creación de grupos,
+      creación de países, edición de perfiles de profesores"
     }
   ],
-  "cities": ["Киев", "Лондон", "Берлин"],
+  "cities": ["Buenavista", "Acapulco", "Ciudad de México"],
   "department": [
-    { "name": "Факультет информатики и выычислительной техники" },
-    { "name": "Факультет искуственого интелекта" },
-    { "name": "Факультет аналитики" }
+    { "name": "Facultad de Informática" },
+    { "name": "Facultad de Redes Neuronales" },
+    { "name": "Facultad de Automatización" }
   ]
 }
 ```
 
 ![collection](/images/collection.png)
 
-### Задача №6
+### Tarea №6
 
-Создать универсальный компонент кнопки у которого будет 3 пропса `text`, `icon` и `onClick`(в будущем)
+Crear un componente de botón universal que tenga 3 props `text`, `icon` y `onClick` (en el futuro)
 
 ![button](/images/button.png)
 
-### Задача №7
+### Tarea №7
 
-Сделать описание проgсов внутри всех компонентов используя `propTypes`
+Hacer una descripción de los props dentro de todos los componentes utilizando `propTypes`.
