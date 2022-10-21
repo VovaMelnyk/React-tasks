@@ -1,38 +1,38 @@
-# Занятие №2
+# Clase №2
 
-## Стилизация компонентов (Прдолжаем работать с кодом из первого занятия)
+## Estilización de componentes (Continuación del trabajo con el código de la primera clase)
 
-### Задача №1
+### Tarea №1
 
-Сделать стилизацию сайдбара используя стандартный CSS
+Estilizar la barra lateral utilizando CSS estándar
 
-### Задача №2
+### Tarea №2
 
-Сделать стилизацию карточки и описания используя css module
+Estilizar la tarjeta y la descripción utilizando el módulo css
 
 ![section](/images/section.png)
 
-### Задача №3
+### Tarea №3
 
-Застилизировать остаток макета используя `emotion `
+Estilizar el resto del diseño con `emotion `
 
 ![emotion](/images/emotion.png)
 
-### Задача №4
+### Tarea №4
 
-Добавить в меню иконки
+Añade iconos al menú
 
 ```jsx
 import { HiBookOpen, HiAcademicCap } from "react-icons/hi";
 
 export const menuConfig = [
   {
-    name: "Университет",
+    name: "Universidad",
     icon: <HiBookOpen />,
   },
 
   {
-    name: "Факультеты",
+    name: "Facultades",
     icon: <HiAcademicCap />,
   },
 ];
