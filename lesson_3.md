@@ -1,39 +1,39 @@
-# Занятие №3
+# Clase №3
 
-## События и состояние
+## Eventos y estados
 
-### Задание №1
+### Tarea №1
 
-Добавить обработчик на кнопки
+Añadir un gestor a los botones
 
-- Добавить преподавателя
-- Добавить город
-- Добавить факультет
+- Añadir profesor
+- Añadir ciudad
+- Añadir una facultad
 
-При клике на "Добавить преподавателя" показывать или прятать форму добавления преподавателя
+Al hacer clic en "Añadir profesor" mostrar u ocultar el formulario para añadir un profesor
 
 ![tutorForm](/images/tutorForm.png)
 
-При клике на "Добавить город" показывать или прятать форму добавления города
+Al hacer clic en "Añadir ciudad" mostrar u ocultar el formulario para añadir una ciudad
 
 ![cityForm](/images/cityForm.png)
 
-При клике на "Добавить факультет" показывать или прятать форму добавления факультета
+Al hacer clic en "Añadir Facultad", mostrar u ocultar el formulario para añadir una Facultad
 
 ![cityForm](/images/departmentForm.png)
 
-Используем стейт в классах
+Usamos el estado en las clases
 
-### Задание №2
+### Tarea №2
 
-Навешать обработчик на ... и показывать список операций "Удалить" "Редактировать"
+Colgar un gestor en ... y mostrar la lista de operaciones "Eliminar" "Editar"
 
 ![dropdown](/images/dropdown.png)
 
-Используем стейт в классах
+Usamos el estado en las clases
 
-### Задание №3
+### Tarea №3
 
-Сделать уделение факультета и города при клике на "Удалить"
+Haga que la facultad y la ciudad se destaquen cuando haga clic en "Eliminar"
 
 ![dropdown](/images/dropdown.png)
