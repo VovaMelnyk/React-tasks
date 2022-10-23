@@ -1,26 +1,26 @@
-# Занятие №4
+# Clase №4
 
-## Формы
+## Formularios
 
-### Задание №1
+### Tarea №1
 
-Создать форму добавления преподавателя и при клике на "Пригласить" прятать форму и добавлять преподавателя в колекцию
+Crear un formulario para añadir profesores y al hacer clic en "Invitar", ocultar el formulario y añadir el profesor a la colección
 
 ![tutorForm](/images/tutorForm.png)
 
-### Задание №2 
-Создать форму добавления города и филиала и при клике на кнопку "Создать" прятать форму и добавлять факультет/город в колекцию
+### Tarea №2 
+Crear un formulario para añadir una ciudad y una sede y, al pulsar el botón "Crear", ocultar el formulario y añadir la facultad/ciudad a la colección
 
 ![cityForm](/images/cityForm.png)
 
-### Задание №3
+### Tarea №3
 
-Создать модалку на редактирование города/факультета которая появляется при клике на "Редактировать"
+Crear un modal para editar la ciudad/facultad que aparece al hacer clic en "Editar"
 
 ![edit](/images/edit.png)
 
-### Задание №4
+### Tarea №4
 
-Создать модалку на удаление города/факультета которая появляется при клике на "Удалить"
+Crear un modal para eliminar una ciudad/facultad que aparece al hacer clic en "Eliminar"
 
 ![delete](/images/delete.png)
