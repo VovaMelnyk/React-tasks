@@ -1,19 +1,19 @@
-# Занятие №5
+# Clase №5
 
-## Жизненный цикл
+## Ciclo de vida
 
-### Задача №1
+### Tarea №1
 
-Показать стандартные методы жизненого цикла компонента в классах
+Mostrar los métodos estándar del ciclo de vida de los componentes en las clases
 
-### Задача №2
+### Tarea №2
 
-Все колекции преподавателей, городрв, факультетов записывать в localStorage
+Escribir todas las colecciones de facultades, ciudades y profesores en localStorage
 
-### Задача №3
+### Tarea №3
 
-Все колекции преподавателей, городрв, факультетов cчитывать с localStorage при первой загрузке страницы
+Leer todas las colecciones de profesores, ciudades y facultades desde localStorage cuando la página se carga por primera vez
 
-### Задача №4
+### Tarea №4
 
-Для модалки редактирования и удаления добавить возможность закрытия по кнопке ```ESC```
+Para el modal de edición y eliminación, añadir la posibilidad de cerrar con el botón ```ESC```
