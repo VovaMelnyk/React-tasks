@@ -1,7 +1,7 @@
-# Занятие №12
+# Clase №12
 
 ## Redux toolkit
 
-### Задача №1
+### Tarea №1
 
-Переписать код из занятия №11 на ``` redux toolkit ``` используя ``` createSlice ```
+Reescribir el código de la clase №11 en ``` redux toolkit ``` usando ``` createSlice ```
