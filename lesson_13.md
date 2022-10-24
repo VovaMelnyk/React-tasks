@@ -1,11 +1,11 @@
-# Занятие №13
+# Clase №13
 
-## Асинхронный Redux
+## Redux Asíncrono
 
-### Задача №1
+### Tarea №1
 
-Добавить в код из занятия №11 логику работы с бекендом через редакс и redux-thunk
+Añadir al código de la clase Nº 11, la lógica de trabajo con el backend a través de redux y redux-thunk
 
-### Задача №2
+### Tarea №2
 
-Написать свой middleware ``` logger```
+Escribir su propio middleware ``` logger```
