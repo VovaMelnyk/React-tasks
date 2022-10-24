@@ -1,16 +1,16 @@
-# Занятие №7
+# Clase №7
 
-## React-хуки часть 1
+## React hooks parte 1
 
-### Задача №1 
+### Tarea №1 
 
-Переписать весь стейт на хуки
+Reescribir todo el estado en los hooks
 
 
-### Задача №2 
+### Tarea №2 
 
-Переписать все жизненные циклы на хуки
+Reescribir todos los ciclos de vida en los hooks
 
-### Задача №3
+### Tarea №3
 
-Переделать модалку удаления и редактирования на порталы
+Rehacer los modals de eliminación y edición en los portales
