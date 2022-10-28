@@ -6,6 +6,6 @@
 
 Connect redux to the project
 
-### Задача №2
+### Task №2
 
-Rewrite the logic of adding, deleting tutors, cities, faculties to ```redux```
+Rewrite the logic of adding, deleting tutors, cities, faculties to `redux`
