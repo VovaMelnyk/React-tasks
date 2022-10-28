@@ -1,11 +1,11 @@
-# Занятие №11
+# Clase №11
 
 ## Redux
 
-### Задача №1
+### Tarea №1
 
-Подключить redux в проект
+Vincular redux al proyecto
 
-### Задача №2
+### Tarea №2
 
-Переписать логику добавления, удаления преподавателей, городов, факультетов на ```redux```
+Reescribir la lógica para añadir y eliminar profesores, ciudades, facultades a ```redux```

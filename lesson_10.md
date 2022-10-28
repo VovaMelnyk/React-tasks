@@ -1,11 +1,11 @@
-# Занятие №10
+# Clase №10
 
-## Разделение кода (code splitting)
+## División del código (code splitting)
 
-### Задача №1
+### Tarea №1
 
-Сделать разделение кода по роутах
+Hacer la división del código por rutas
 
-### Задача №2
+### Tarea №2
 
-Сделать ленивую загрузку компонентов
+Hacer que la carga de componentes sea "perezosa"

@@ -1,7 +1,7 @@
-# Занятие №14
+# Clase №14
 
-## Мемоизация в Redux
+## Memoización en Redux
 
-### Задача №1
+### Tarea №1
 
-Переписать код из занятия №13 на вариант запросов с ``` createAsyncThunk```
+Reescribir el código de la clase №13 en la variante de peticiones con ``` createAsyncThunk```
